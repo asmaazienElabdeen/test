@@ -15,7 +15,7 @@ and open the template in the editor.
       //   echo fread($h, 4);
        while(!feof($h))
        {
-           $v= fread($h, 4);
+           $v= fread($h, 5);
            echo $v."<br/>";
            if(strlen($v)<4)
                break;
